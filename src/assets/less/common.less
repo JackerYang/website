@@ -1,0 +1,19 @@
+// 内容区宽度
+@content-width: 1170px;
+
+.content-width {
+  @media screen and (max-width: 1200px) {
+    width: 80%;
+    max-width: 100%;
+  }
+  @media screen and (min-width: 1200px) {
+    width: @content-width;
+  }
+}
+
+// dark 背景色
+@bg-color: #2b2d32;
+@bg-color-dark: #1e1e1e;
+
+// 主题颜色
+@main-color: #00adb5;
